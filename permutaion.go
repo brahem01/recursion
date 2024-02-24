@@ -1,12 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	for _, v := range permutation("abc") {
-		fmt.Println(v)
-	}
-}
+package recur
 
 func permutation(s string) []string {
 	if len(s) == 1 {
