@@ -1,12 +1,5 @@
-package main
+package recur
 
-import "fmt"
-
-func main() { 
-	count:= 0
-	powerOfSum(13, 2, 1, 0, &count )
-	fmt.Println(count)
-}
 func powerOfSum(x, n, i, sum int, count *int)  {
 	if i == 50 {
 		if sum == x {
