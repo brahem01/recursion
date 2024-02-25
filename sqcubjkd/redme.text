@@ -1,0 +1,6 @@
+in this function we get the square and the cube for in number and reverse him 
+if the reverses are prime number we count 1
+the first numbe is 89:
+=> the square of 89 is :7921 and the reverse is 1279 (prime number)
+=> the cube of 89 is : 704969 and the reverse is 969407 (prime number)
+so if we pass 1 as a parameter the output is 89 
