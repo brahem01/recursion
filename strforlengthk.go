@@ -1,10 +1,10 @@
-package main
+package piscine
 
 import "fmt"
 
-func main() {
-	strOfLengthK([]string{"a", "b"}, 3, "")
-}
+// the function print all possible string combinattion with
+// a length k and with the character from the array that we
+// pass as a parameter
 
 func strOfLengthK(slice []string, n int, s string) {
 	if len(s) == n {

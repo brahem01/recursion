@@ -1,4 +1,4 @@
-package recur
+package piscine
 
 func powerOfSum(x, n, i, sum int, count *int)  {
 	if i == 50 {

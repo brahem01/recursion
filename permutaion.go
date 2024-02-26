@@ -1,4 +1,4 @@
-package recur
+package piscine
 
 func permutation(s string) []string {
 	if len(s) == 1 {

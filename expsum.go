@@ -1,10 +1,9 @@
-package main
+package piscine
 
-import "fmt"
-
-func main() {
-	fmt.Println(expSum(uint64(10)))
-}
+// the expsum is a function that
+// return the number of combination
+// of sums of numbers that can equal a
+// number n type uint64
 
 func expSum(n uint64) uint64 {
 	partitions := make([]uint64, n+1)

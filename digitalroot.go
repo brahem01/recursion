@@ -1,4 +1,8 @@
-package recur
+package piscine
+
+// the function return the sum of the digit of number
+// passage as a parameter, if the sum > 10, the function
+// call her self
 
 func DigitalRoot(n int) int {
 	// ...

@@ -1,3 +1,3 @@
-module recur //hna
+module piscine
 
-go 1.21.5 //awla hna
+go 1.21.5
